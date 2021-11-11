@@ -7,10 +7,12 @@ for (const char of sentence) {
   setTimeout(() => {
     process.stdout.write(char)
   }, x);
-  //console.log('\n');
   x += 50;
+  //return 'hi'
 }
 
 setTimeout(() => {
   console.log('')
 }, x);
+
+
